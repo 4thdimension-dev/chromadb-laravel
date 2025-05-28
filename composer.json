@@ -19,7 +19,7 @@
     "require": {
         "php": "^8.1",
         "laravel/framework": "^9.5.0|^10.34.2|^11.0",
-        "codewithkyrian/chromadb-php": "^0.4.0"
+        "codewithkyrian/chromadb-php": "dev-main"
     },
     "require-dev": {
         "pestphp/pest": "^1.9.1 | ^2.15",
@@ -27,6 +27,12 @@
         "mockery/mockery": "^1.6",
         "orchestra/testbench": "^7.0 | ^8.20"
     },
+     "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/BlackyDrum/chromadb-php"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Codewithkyrian\\ChromaDB\\": "src/"
